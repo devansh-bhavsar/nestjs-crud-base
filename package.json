@@ -1,0 +1,27 @@
+{
+  "name": "devansh-bhavsar/nestjs-base-repository",
+  "version": "1.0.0",
+  "description": "Reusable Mongoose BaseRepository with pagination, soft delete, and populate support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devansh-bhavsar/nestjs-crud-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "mongoose": "^9.7.4",
+    "typescript": "^7.0.2"
+  },
+  "peerDependencies": {
+    "mongoose": "^9.7.4"
+  }
+}
